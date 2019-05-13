@@ -4,8 +4,8 @@ import { Text, View } from 'react-native';
 const AlbumList = () => {
 	  const { textStyle, viewStyle } = styles; 
   return (
-     <View style={viewStyle}> 
-       <Text style={textStyle}>List of all the albums!!</Text>
+     <View> 
+       <Text>List of all the albums!!</Text>
      </View>
   	);
 };
