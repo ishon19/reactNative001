@@ -16,6 +16,9 @@ class AlbumList extends Component {
    }
 
    render(){
+      
+      console.log(this.state);
+
 	  return (
 	     <View> 
 	       <Text>List of all the albums!!</Text>
